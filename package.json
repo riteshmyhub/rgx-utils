@@ -1,0 +1,21 @@
+{
+   "name": "@rgx/utils",
+   "version": "1.0.0",
+   "description": "@rgx/utils",
+   "main": "lib/index.js",
+   "types": "lib/index.d.ts",
+   "scripts": {
+      "build": "tsc",
+      "prepare": "npm run build"
+   },
+   "keywords": [],
+   "author": "ritesh goswami",
+   "license": "ISC",
+   "dependencies": {},
+   "devDependencies": {
+      "typescript": "^5.4.3"
+   },
+   "files": [
+      "lib/**/*"
+   ]
+}
