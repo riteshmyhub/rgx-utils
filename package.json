@@ -19,6 +19,9 @@
    "bugs": {
       "url": "https://github.com/riteshmyhub/rgx-utils/issues"
    },
+   "publishConfig": {
+      "access": "public"
+   },
    "homepage": "https://github.com/riteshmyhub/rgx-utils#readme",
    "devDependencies": {
       "typescript": "^5.4.3"
