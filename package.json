@@ -1,5 +1,5 @@
 {
-   "name": "rgx-utils",
+   "name": "@developer-io/utils",
    "version": "1.0.2",
    "description": "A modern collection of reusable utility functions for JavaScript and TypeScript, designed to simplify everyday development tasks.",
    "main": "lib/index.js",
