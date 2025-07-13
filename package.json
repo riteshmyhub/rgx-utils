@@ -5,13 +5,16 @@
    "main": "lib/index.js",
    "types": "lib/index.d.ts",
    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "build": "tsc",
+      "prepare": "npm run build"
    },
    "repository": {
       "type": "git",
       "url": "git+https://github.com/riteshmyhub/rgx-utils.git"
    },
    "keywords": [
+      "javasript",
+      "typescript",
       "ts"
    ],
    "author": "ritesh-goswami",
@@ -19,5 +22,11 @@
    "bugs": {
       "url": "https://github.com/riteshmyhub/rgx-utils/issues"
    },
-   "homepage": "https://github.com/riteshmyhub/rgx-utils#readme"
+   "homepage": "https://github.com/riteshmyhub/rgx-utils#readme",
+   "devDependencies": {
+      "typescript": "^5.4.3"
+   },
+   "files": [
+      "lib/**/*"
+   ]
 }
