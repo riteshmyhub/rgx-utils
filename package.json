@@ -8,10 +8,18 @@
       "build": "tsc",
       "prepare": "npm run build"
    },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/riteshmyhub/rgx-utils.git"
+   },
    "keywords": [],
    "author": "ritesh goswami",
    "license": "ISC",
    "dependencies": {},
+   "bugs": {
+      "url": "https://github.com/riteshmyhub/rgx-utils/issues"
+   },
+   "homepage": "https://github.com/riteshmyhub/rgx-utils#readme",
    "devDependencies": {
       "typescript": "^5.4.3"
    },
