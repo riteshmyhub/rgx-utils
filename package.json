@@ -1,32 +1,23 @@
 {
-   "name": "@rgx/utils",
+   "name": "rgx-utils",
    "version": "1.0.0",
-   "description": "@rgx/utils",
+   "description": "A modern collection of reusable utility functions for JavaScript and TypeScript, designed to simplify everyday development tasks.",
    "main": "lib/index.js",
    "types": "lib/index.d.ts",
    "scripts": {
-      "build": "tsc",
-      "prepare": "npm run build"
+      "test": "echo \"Error: no test specified\" && exit 1"
    },
    "repository": {
       "type": "git",
       "url": "git+https://github.com/riteshmyhub/rgx-utils.git"
    },
-   "keywords": [],
-   "author": "ritesh goswami",
+   "keywords": [
+      "ts"
+   ],
+   "author": "ritesh-goswami",
    "license": "ISC",
-   "dependencies": {},
    "bugs": {
       "url": "https://github.com/riteshmyhub/rgx-utils/issues"
    },
-   "publishConfig": {
-      "access": "public"
-   },
-   "homepage": "https://github.com/riteshmyhub/rgx-utils#readme",
-   "devDependencies": {
-      "typescript": "^5.4.3"
-   },
-   "files": [
-      "lib/**/*"
-   ]
+   "homepage": "https://github.com/riteshmyhub/rgx-utils#readme"
 }
