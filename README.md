@@ -1,11 +1,11 @@
-# xjs-utils
+# xrg-utils
 
 A collection of utility functions for common JavaScript/TypeScript.A modern collection of reusable utility functions for JavaScript and TypeScript, designed to simplify everyday development tasks.
 
 ## Installation
 
 ```bash
-npm install xjs-utils
+npm install xrg-utils
 ```
 
 ## Available Utilities
@@ -13,7 +13,7 @@ npm install xjs-utils
 ##### pipeline
 
 ```typescript
-import { pipeline } from "xjs-utils";
+import { pipeline } from "xrg-utils";
 
 const [op1, op2] = pipeline({
    input: [5, 2, 8, 3, 1, 4],
@@ -35,7 +35,7 @@ console.log("op2:", op2); // [-5, -3, -1]
 ##### generatePassword
 
 ```typescript
-import { generatePassword } from "xjs-utils";
+import { generatePassword } from "xrg-utils";
 
 generatePassword(12); // Generates a 12-character password
 ```
@@ -43,7 +43,7 @@ generatePassword(12); // Generates a 12-character password
 ##### getBase64
 
 ```typescript
-import { getBase64 } from "xjs-utils";
+import { getBase64 } from "xrg-utils";
 
 // For files:
 const fileBase64 = await getBase64(file);
@@ -52,7 +52,7 @@ const fileBase64 = await getBase64(file);
 ##### slug
 
 ```typescript
-import { slug } from "xjs-utils";
+import { slug } from "xrg-utils";
 
 const urlSlug = slug("Some String to Slugify"); // "some-string-to-slugify"
 ```
@@ -60,7 +60,7 @@ const urlSlug = slug("Some String to Slugify"); // "some-string-to-slugify"
 ##### truncate
 
 ```typescript
-import { truncate } from "xjs-utils";
+import { truncate } from "xrg-utils";
 
 const shortText = truncate("Very long text here", 10); // "Very long..."
 const customEllipsis = truncate("Very long text here", 10, " >>"); // "Very long >>"
