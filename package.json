@@ -1,6 +1,6 @@
 {
-   "name": "@developer-io/utils",
-   "version": "1.0.2",
+   "name": "xjs-utils",
+   "version": "1.0.3",
    "description": "A modern collection of reusable utility functions for JavaScript and TypeScript, designed to simplify everyday development tasks.",
    "main": "lib/index.js",
    "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/riteshmyhub/rgx-utils.git"
+      "url": "git+https://github.com/riteshmyhub/xjs-utils.git"
    },
    "keywords": [
       "javasript",
@@ -20,9 +20,9 @@
    "author": "ritesh-goswami",
    "license": "ISC",
    "bugs": {
-      "url": "https://github.com/riteshmyhub/rgx-utils/issues"
+      "url": "https://github.com/riteshmyhub/xjs-utils/issues"
    },
-   "homepage": "https://github.com/riteshmyhub/rgx-utils#readme",
+   "homepage": "https://github.com/riteshmyhub/xjs-utils#readme",
    "devDependencies": {
       "typescript": "^5.4.3"
    },
