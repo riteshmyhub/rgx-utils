@@ -13,9 +13,9 @@ npm install xrg-utils
 ##### pipeline
 
 ```typescript
-import { pipeline } from "xrg-utils";
+import utils from "xrg-utils";
 
-const [op1, op2] = pipeline({
+const [op1, op2] = utils.pipeline({
    input: [5, 2, 8, 3, 1, 4],
    filter: (num) => num % 2 === 0,
    map: {
@@ -35,35 +35,34 @@ console.log("op2:", op2); // [-5, -3, -1]
 ##### generatePassword
 
 ```typescript
-import { generatePassword } from "xrg-utils";
+import utils from "xrg-utils";
 
-generatePassword(12); // Generates a 12-character password
+utils.generatePassword(12); // Generates a 12-character password
 ```
 
 ##### getBase64
 
 ```typescript
-import { getBase64 } from "xrg-utils";
+import utils from "xrg-utils";
 
 // For files:
-const fileBase64 = await getBase64(file);
+const fileBase64 = await utils.getBase64(file);
 ```
 
 ##### slug
 
 ```typescript
-import { slug } from "xrg-utils";
+import utils from "xrg-utils";
 
-const urlSlug = slug("Some String to Slugify"); // "some-string-to-slugify"
+const urlSlug = utils.slug("Some String to Slugify"); // "some-string-to-slugify"
 ```
 
 ##### truncate
 
 ```typescript
-import { truncate } from "xrg-utils";
+import utils from "xrg-utils";
 
-const shortText = truncate("Very long text here", 10); // "Very long..."
-const customEllipsis = truncate("Very long text here", 10, " >>"); // "Very long >>"
+const shortText = utils.truncate("Very long text here", 10); // "Very long..."\
 ```
 
 ## Contributing
