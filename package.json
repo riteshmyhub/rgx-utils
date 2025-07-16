@@ -1,6 +1,6 @@
 {
    "name": "xrg-utils",
-   "version": "1.0.3",
+   "version": "1.0.4",
    "description": "A modern collection of reusable utility functions for JavaScript and TypeScript, designed to simplify everyday development tasks.",
    "main": "lib/index.js",
    "types": "lib/index.d.ts",
