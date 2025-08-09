@@ -9,8 +9,8 @@ const x = utils.withSearch({
       { name: "orange" },
       { data: { id: "mango" } },
    ],
-   searchTerm: "pt",
-   key: "", // try "name" or "" for primitives
+   searchTerm: "st",
+   key: "data.id", // try "name" or "" for primitives
 });
 
 console.log(x);
