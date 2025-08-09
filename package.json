@@ -1,12 +1,27 @@
 {
    "name": "xrg-utils",
-   "version": "1.0.4",
+   "version": "1.0.5",
    "description": "A modern collection of reusable utility functions for JavaScript and TypeScript, designed to simplify everyday development tasks.",
-   "main": "lib/index.js",
-   "types": "lib/index.d.ts",
+   "main": "./dist/index.js",
+   "types": "./dist/index.d.ts",
+   "exports": {
+      ".": {
+         "import": "./dist/index.js",
+         "require": "./dist/index.js",
+         "types": "./dist/index.d.ts"
+      },
+      "./utils": {
+         "import": "./dist/utils/index.js",
+         "require": "./dist/utils/index.js",
+         "types": "./dist/utils/index.d.ts"
+      }
+   },
    "scripts": {
       "build": "tsc",
-      "prepare": "npm run build"
+      "prepare": "npm run build",
+      "dev": "npm run build && npm link && cd ./dev && npm link xrg-utils",
+      "clean": "rmdir /s /q dist && npm unlink xrg-utils && cd ./dev && npm unlink xrg-utils",
+      "restart": "npm run clean && npm run dev"
    },
    "repository": {
       "type": "git",
